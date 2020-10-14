@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: maha-rc
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     app: mahaapp
   template:
