@@ -3,7 +3,8 @@ kind: Service
 metadata:
   name: mani-svc
   labels:
-    app: mahaapp
+    app: myjavaapp
+    version: 2.7.1
 spec:
   type: NodePort
   ports:
@@ -11,4 +12,5 @@ spec:
     nodePort: 30001
     protocol: TCP
   selector:
-    app: mahaapp
+    app: myjavaapp
+    version: 2.7.1
