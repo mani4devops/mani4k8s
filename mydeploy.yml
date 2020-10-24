@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myjavaapp-container
-        image: mani4docker/myjavaapp07102020:3
+        image: mani4docker/myjavaapp07102020:2
         ports:
         - containerPort: 8080
